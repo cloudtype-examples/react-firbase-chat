@@ -63,7 +63,7 @@ npx vite --port=[포트번호] # 기본값: 4000
 
 ## 📄 License
 
-[MIT](https://github.com/Timonwa/react-chat/blob/main/LICENSE.MD)
+- [MIT](https://github.com/Timonwa/react-chat/blob/main/LICENSE.MD)
 
 
 ## 🗂️ Source
