@@ -44,6 +44,7 @@ npx vite --port=[포트번호] # 기본값: 4000
 ## 🏷️ 환경변수
 
 - Firebase 프로젝트 생성 후 환경변수에 해당되는 값 입력 필요
+- Vite로 관리되는 프로젝트에서 환경변수를 인식하도록 하려면 `VITE_[환경변수]`와 같은 양식으로 키 이름 설정이 필수이며, `import.meta.env.[환경변수 키]`와 같은 형식으로 값을 참조
   - `VITE_APP_API_KEY`
   - `VITE_APP_AUTH_DOMAIN`
   - `VITE_APP_PROJECT_ID`
