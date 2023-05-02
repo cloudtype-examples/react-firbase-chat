@@ -40,6 +40,21 @@ npx vite build
 npx vite --port=[포트번호] # 기본값: 4000
 ```
 
+## 🔥 Firebase
+
+### Cloud Firestore 규칙
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read: if true;
+      allow create, update, delete, write: if request.auth != null;
+    }
+  }
+}
+```
+
 
 ## 🏷️ 환경변수
 
